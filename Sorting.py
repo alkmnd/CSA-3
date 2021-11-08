@@ -1,3 +1,4 @@
+# Функция для сортировки.
 def merge_sort(array):
 	if len(array) == 1 or len(array) == 0:
 		return array

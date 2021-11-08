@@ -1,6 +1,6 @@
 from WellOfWisdom import WellOfWisdom
 
-
+# Класс описывает пословицу.
 class Proverb(WellOfWisdom):
 	def __init__(self, country, content):
 		super().__init__(content)

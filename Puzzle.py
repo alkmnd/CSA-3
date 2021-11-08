@@ -1,6 +1,6 @@
 from WellOfWisdom import WellOfWisdom
 
-
+# Класс описывает загадку.
 class Puzzle(WellOfWisdom):
 	def __init__(self, answer, content):
 		super().__init__(content)
